@@ -1,0 +1,195 @@
+{
+  "keyword": "how to build your first ai workflow",
+  "title": "How to build your first AI workflow: tools and a small working process",
+  "lastChecked": "2026-10-01",
+  "capabilityChecks": [
+    {
+      "key": "visualGraph",
+      "label": "Visual graph"
+    },
+    {
+      "key": "restApi",
+      "label": "REST API"
+    },
+    {
+      "key": "selfHostedRuntime",
+      "label": "Self-hosted runtime"
+    },
+    {
+      "key": "imageTools",
+      "label": "Image tools"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": null,
+      "homepage": "https://www.wireflow.ai/ai-workflow-builder",
+      "docs": "https://www.wireflow.ai/docs",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Hosted MCP; see official connector setup",
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/docs"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "selfHostedRuntime": null,
+        "imageTools": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "n8n",
+      "tagline": null,
+      "homepage": "https://n8n.io",
+      "docs": "https://docs.n8n.io",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Orchestration of connected models and services",
+      "freeTier": "unverified",
+      "repo": "n8n-io/n8n",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested. Self-hosting is available under n8n licensing terms; do not describe every commercial use as unrestricted open source.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.n8n.io"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "selfHostedRuntime": true,
+        "imageTools": null
+      },
+      "live": {
+        "stars": 206390,
+        "lastPush": "2026-10-01T02:47:55Z",
+        "latestRelease": "n8n@2.41.4",
+        "latestReleaseDate": "2026-09-30",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "n": 3,
+      "name": "Flowise",
+      "tagline": null,
+      "homepage": "https://flowiseai.com",
+      "docs": "https://docs.flowiseai.com",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Orchestration of connected models and services",
+      "freeTier": "unverified",
+      "repo": "FlowiseAI/Flowise",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.flowiseai.com"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "selfHostedRuntime": true,
+        "imageTools": null
+      },
+      "live": {
+        "stars": 55488,
+        "lastPush": "2026-08-13T12:38:19Z",
+        "latestRelease": "flowise@3.1.4",
+        "latestReleaseDate": "2026-07-29",
+        "checkedAt": "2026-10-01"
+      }
+    },
+    {
+      "n": 4,
+      "name": "Krea AI",
+      "tagline": null,
+      "homepage": "https://www.krea.ai",
+      "docs": "https://www.krea.ai/docs/developers/introduction",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.krea.ai/docs/developers/introduction"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "selfHostedRuntime": null,
+        "imageTools": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "ComfyUI",
+      "tagline": null,
+      "homepage": "https://www.comfy.org",
+      "docs": "https://docs.comfy.org",
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": true,
+      "modelSupport": "Image and video operations; model coverage varies",
+      "freeTier": "unverified",
+      "repo": "Comfy-Org/ComfyUI",
+      "note": "Documentation review 2026-09-21; product/account behaviour was not tested. ComfyUI has both local and hosted routes. Downloadable software does not make GPU use, hosted services or every model licence free.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.comfy.org"
+        }
+      ],
+      "capabilities": {
+        "visualGraph": true,
+        "restApi": true,
+        "selfHostedRuntime": true,
+        "imageTools": true
+      },
+      "live": {
+        "stars": 135665,
+        "lastPush": "2026-10-01T03:00:48Z",
+        "latestRelease": "v0.38.0",
+        "latestReleaseDate": "2026-09-29",
+        "checkedAt": "2026-10-01"
+      }
+    }
+  ]
+}
