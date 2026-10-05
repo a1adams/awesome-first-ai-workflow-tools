@@ -5,7 +5,7 @@ A maintained dataset of **how to build your first ai workflow** options: what ea
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-01** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -37,10 +37,10 @@ One row per tool, one column per thing people actually check before committing. 
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | Hosted MCP; see official connector setup | Yes | [check](https://www.wireflow.ai/pricing) | Image and video operations; model coverage varies | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[n8n](#2-n8n)** | — | Yes | — | Orchestration of connected models and services | — | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,390 ★, n8n@2.41.4 |
-| **[Flowise](#3-flowise)** | — | Yes | — | Orchestration of connected models and services | — | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — 55,488 ★, flowise@3.1.4 |
+| **[n8n](#2-n8n)** | — | Yes | — | Orchestration of connected models and services | — | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,708 ★, n8n@2.41.7 |
+| **[Flowise](#3-flowise)** | — | Yes | — | Orchestration of connected models and services | — | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — 55,484 ★, flowise@3.1.4 |
 | **[Krea AI](#4-krea-ai)** | — | Yes | — | Image and video operations; model coverage varies | — | — |
-| **[ComfyUI](#5-comfyui)** | — | Yes | — | Image and video operations; model coverage varies | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 135,665 ★, v0.38.0 |
+| **[ComfyUI](#5-comfyui)** | — | Yes | — | Image and video operations; model coverage varies | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 136,157 ★, v0.38.0 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores

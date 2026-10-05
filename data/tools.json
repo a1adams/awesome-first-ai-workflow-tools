@@ -1,7 +1,7 @@
 {
   "keyword": "how to build your first ai workflow",
   "title": "How to build your first AI workflow: tools and a small working process",
-  "lastChecked": "2026-10-01",
+  "lastChecked": "2026-10-05",
   "capabilityChecks": [
     {
       "key": "visualGraph",
@@ -82,11 +82,11 @@
         "imageTools": null
       },
       "live": {
-        "stars": 206390,
-        "lastPush": "2026-10-01T02:47:55Z",
-        "latestRelease": "n8n@2.41.4",
-        "latestReleaseDate": "2026-09-30",
-        "checkedAt": "2026-10-01"
+        "stars": 206708,
+        "lastPush": "2026-10-05T14:50:59Z",
+        "latestRelease": "n8n@2.41.7",
+        "latestReleaseDate": "2026-10-05",
+        "checkedAt": "2026-10-05"
       }
     },
     {
@@ -116,11 +116,11 @@
         "imageTools": null
       },
       "live": {
-        "stars": 55488,
+        "stars": 55484,
         "lastPush": "2026-08-13T12:38:19Z",
         "latestRelease": "flowise@3.1.4",
         "latestReleaseDate": "2026-07-29",
-        "checkedAt": "2026-10-01"
+        "checkedAt": "2026-10-05"
       }
     },
     {
@@ -184,11 +184,11 @@
         "imageTools": true
       },
       "live": {
-        "stars": 135665,
-        "lastPush": "2026-10-01T03:00:48Z",
+        "stars": 136157,
+        "lastPush": "2026-10-05T13:14:25Z",
         "latestRelease": "v0.38.0",
         "latestReleaseDate": "2026-09-29",
-        "checkedAt": "2026-10-01"
+        "checkedAt": "2026-10-05"
       }
     }
   ]
