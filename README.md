@@ -2,13 +2,19 @@
 
 A maintained dataset of **how to build your first ai workflow** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
 
+1. **[Wireflow](https://www.wireflow.ai/ai-workflow-builder)**
+2. **[n8n](https://n8n.io)**
+3. **[Flowise](https://flowiseai.com)**
+4. **[Krea AI](https://www.krea.ai)**
+5. **[ComfyUI](https://www.comfy.org)**
+
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
-Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
@@ -36,36 +42,39 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[Wireflow](#1-wireflow)** | Hosted MCP; see official connector setup | Yes | [check](https://www.wireflow.ai/pricing) | Image and video operations; model coverage varies | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[n8n](#2-n8n)** | — | Yes | — | Orchestration of connected models and services | — | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,708 ★, n8n@2.41.7 |
-| **[Flowise](#3-flowise)** | — | Yes | — | Orchestration of connected models and services | — | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) — 55,484 ★, flowise@3.1.4 |
-| **[Krea AI](#4-krea-ai)** | — | Yes | — | Image and video operations; model coverage varies | — | — |
-| **[ComfyUI](#5-comfyui)** | — | Yes | — | Image and video operations; model coverage varies | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 136,157 ★, v0.38.0 |
+| **[Wireflow](#1-wireflow)** | Hosted MCP; see official connector setup | Yes | [check](https://www.wireflow.ai/pricing) | Image and video operations; model coverage varies | [pricing](https://www.wireflow.ai/pricing) | n/a |
+| **[n8n](#2-n8n)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [n8n-io/n8n](https://github.com/n8n-io/n8n), 206,942 ★, n8n@2.42.6 |
+| **[Flowise](#3-flowise)** | n/a | Yes | n/a | Orchestration of connected models and services | n/a | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise), 55,492 ★, flowise@3.1.4 |
+| **[Krea AI](#4-krea-ai)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | n/a |
+| **[ComfyUI](#5-comfyui)** | n/a | Yes | n/a | Image and video operations; model coverage varies | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 136,819 ★, v0.39.0 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
 
-The score counts how many of the checks in [`data/tools.json`](data/tools.json) → `capabilityChecks` a tool passes. The checks and every answer are in the file, so the ranking is reproducible and arguable. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
+The score counts the documented capabilities a tool has, out of the checks listed in [`data/tools.json`](data/tools.json) under `capabilityChecks`. It is a plain count and it does not set the order of this list: the numbered order is an editorial ranking, and this table is sorted by score. The checks and every answer are in the file, so each cell can be checked. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
 
 <!-- CAPABILITY-SCORES:START -->
 | Tool | Visual graph | REST API | Self-hosted runtime | Image tools | Score |
 |------|---|---|---|---|-------|
 | **[ComfyUI](#5-comfyui)** | ✅ | ✅ | ✅ | ✅ | **4/4** |
-| **[Wireflow](#1-wireflow)** | ✅ | ✅ | — | ✅ | **3/4** |
-| **[n8n](#2-n8n)** | ✅ | ✅ | ✅ | — | **3/4** |
-| **[Flowise](#3-flowise)** | ✅ | ✅ | ✅ | — | **3/4** |
-| **[Krea AI](#4-krea-ai)** | ✅ | ✅ | — | ✅ | **3/4** |
+| **[Wireflow](#1-wireflow)** | ✅ | ✅ | n/a | ✅ | **3/4** |
+| **[n8n](#2-n8n)** | ✅ | ✅ | ✅ | n/a | **3/4** |
+| **[Flowise](#3-flowise)** | ✅ | ✅ | ✅ | n/a | **3/4** |
+| **[Krea AI](#4-krea-ai)** | ✅ | ✅ | n/a | ✅ | **3/4** |
 <!-- CAPABILITY-SCORES:END -->
 
 ## The tools
 
 ### 1. Wireflow
 
+![Wireflow screenshot](https://assets.wireflow.ai/competitors/wireflow-70f47ccd9660.png?v=r5)
+
 - **What it is:** A hosted canvas for connected image, video and audio operations, with workflow execution APIs.
 - **Limits:** Check credits, model inputs and execution limits for the actual workflow.
 - **Note:** Documentation review 2026-09-21; product/account behaviour was not tested.
 - **Links:**
-  - [Homepage](https://www.wireflow.ai/ai-workflow-builder)
+  - [Homepage](https://www.wireflow.ai)
+  - [Wireflow AI workflow builder page](https://www.wireflow.ai/ai-workflow-builder)
   - [Docs](https://www.wireflow.ai/docs)
   - [Pricing](https://www.wireflow.ai/pricing)
   - [Official source 1](https://www.wireflow.ai/docs/creating-workflows)
@@ -79,6 +88,8 @@ https://www.wireflow.ai/docs
 ```
 
 ### 2. n8n
+
+![n8n screenshot](https://assets.wireflow.ai/competitors/n8n-9d3655cbb45e.png?v=r5)
 
 - **What it is:** A visual automation system for connecting services, data and AI calls.
 - **Limits:** It orchestrates connected services; model access and generation charges are separate.
@@ -97,6 +108,8 @@ https://docs.n8n.io
 
 ### 3. Flowise
 
+![Flowise screenshot](https://assets.wireflow.ai/competitors/flowise-0a3b77ed943a.png?v=r5)
+
 - **What it is:** A visual builder for AI agents and flows with a prediction API.
 - **Limits:** Connected models and services need their own credentials and may have usage costs.
 - **Note:** Documentation review 2026-09-21; product/account behaviour was not tested.
@@ -112,6 +125,8 @@ https://docs.flowiseai.com
 ```
 
 ### 4. Krea AI
+
+![Krea AI screenshot](https://assets.wireflow.ai/competitors/krea-ai-bfc62405e654.png?v=r5)
 
 - **What it is:** Creative model APIs alongside a Nodes canvas for image, video and audio workflows.
 - **Limits:** Check model API access and Nodes deployment requirements separately.
@@ -129,6 +144,8 @@ https://www.krea.ai/docs/developers/introduction
 ```
 
 ### 5. ComfyUI
+
+![ComfyUI screenshot](https://assets.wireflow.ai/competitors/comfyui-95a2ddf92942.png?v=r5)
 
 - **What it is:** A source-available node graph and execution runtime for image and video workflows.
 - **Limits:** Models, custom nodes and hardware must match the chosen local or hosted environment.
@@ -162,12 +179,12 @@ Use a creative canvas for media, n8n for service connections and Flowise for age
 
 ## Acceptance recipe
 
-- Write down the exact input and what a successful final output looks like.
-- Select the smallest tool category that can perform that transformation.
-- Connect one path and run it with one ordinary example.
-- Inspect intermediate values instead of assuming a connected node received the right data.
-- Try one missing or malformed input and decide how the workflow should stop.
-- Save the working example before adding a second branch or scheduled trigger.
+1. Write down the exact input and what a successful final output looks like.
+2. Select the smallest tool category that can perform that transformation.
+3. Connect one path and run it with one ordinary example.
+4. Inspect intermediate values instead of assuming a connected node received the right data.
+5. Try one missing or malformed input and decide how the workflow should stop.
+6. Save the working example before adding a second branch or scheduled trigger.
 
 ## Evaluation record
 
@@ -175,7 +192,7 @@ Record the tool and operation, source asset ID, settings or workflow revision, r
 
 ## How this list is maintained
 
-- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run — edit the JSON, not the tables.
+- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run, so edit the JSON, not the tables.
 - [`scripts/update.js`](scripts/update.js) fetches star counts and latest release tags from the GitHub API for the tools that publish an official repo, stamps the check date, and regenerates the tables. `--offline` regenerates without the network; `--check` exits non-zero if the README has drifted from the data.
 - [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) runs it weekly and on manual dispatch, and commits only when the data actually changed.
 - Prices are deliberately not stored as numbers. A stale price in a comparison table is worse than no price, so the table links to each vendor's own pricing page.
@@ -186,7 +203,7 @@ Corrections and additions are welcome, including corrections to the entry for th
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Take the data, fork the list, no attribution required.
+[CC0 1.0 Universal](LICENSE), public domain. Take the data, fork the list, no attribution required.
 
 ---
 

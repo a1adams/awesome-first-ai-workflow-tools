@@ -1,7 +1,7 @@
 {
   "keyword": "how to build your first ai workflow",
   "title": "How to build your first AI workflow: tools and a small working process",
-  "lastChecked": "2026-10-05",
+  "lastChecked": "2026-10-11",
   "capabilityChecks": [
     {
       "key": "visualGraph",
@@ -25,7 +25,7 @@
       "n": 1,
       "name": "Wireflow",
       "tagline": null,
-      "homepage": "https://www.wireflow.ai/ai-workflow-builder",
+      "homepage": "https://www.wireflow.ai",
       "docs": "https://www.wireflow.ai/docs",
       "pricing": "https://www.wireflow.ai/pricing",
       "claudeConnection": "Hosted MCP; see official connector setup",
@@ -41,6 +41,8 @@
           "code": "https://www.wireflow.ai/docs"
         }
       ],
+      "moneyPage": "https://www.wireflow.ai/ai-workflow-builder",
+      "moneyPageLabel": "Wireflow AI workflow builder page",
       "capabilities": {
         "visualGraph": true,
         "restApi": true,
@@ -82,11 +84,11 @@
         "imageTools": null
       },
       "live": {
-        "stars": 206708,
-        "lastPush": "2026-10-05T14:50:59Z",
-        "latestRelease": "n8n@2.41.7",
-        "latestReleaseDate": "2026-10-05",
-        "checkedAt": "2026-10-05"
+        "stars": 206942,
+        "lastPush": "2026-10-10T21:12:27Z",
+        "latestRelease": "n8n@2.42.6",
+        "latestReleaseDate": "2026-10-09",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -116,11 +118,11 @@
         "imageTools": null
       },
       "live": {
-        "stars": 55484,
+        "stars": 55492,
         "lastPush": "2026-08-13T12:38:19Z",
         "latestRelease": "flowise@3.1.4",
         "latestReleaseDate": "2026-07-29",
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -184,11 +186,11 @@
         "imageTools": true
       },
       "live": {
-        "stars": 136157,
-        "lastPush": "2026-10-05T13:14:25Z",
-        "latestRelease": "v0.38.0",
-        "latestReleaseDate": "2026-09-29",
-        "checkedAt": "2026-10-05"
+        "stars": 136819,
+        "lastPush": "2026-10-11T02:28:40Z",
+        "latestRelease": "v0.39.0",
+        "latestReleaseDate": "2026-10-05",
+        "checkedAt": "2026-10-11"
       }
     }
   ]
